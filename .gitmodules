@@ -1,1 +1,46 @@
 
+[submodule "my_plugins/asyncomplete-lsp.vim"]
+	path = my_plugins/asyncomplete-lsp.vim
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim.git
+[submodule "my_plugins/asyncomplete.vim"]
+	path = my_plugins/asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim.git
+[submodule "my_plugins/async.vim"]
+	path = my_plugins/async.vim
+	url = https://github.com/prabirshrestha/async.vim.git
+[submodule "my_plugins/auto-pairs-gentle"]
+	path = my_plugins/auto-pairs-gentle
+	url = https://github.com/vim-scripts/auto-pairs-gentle.git
+[submodule "my_plugins/nerdcommenter"]
+	path = my_plugins/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "my_plugins/supertab"]
+	path = my_plugins/supertab
+	url = https://github.com/metalelf0/supertab.git
+[submodule "my_plugins/syntastic"]
+	path = my_plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "my_plugins/vim-autoread"]
+	path = my_plugins/vim-autoread
+	url = https://github.com/djoshea/vim-autoread.git
+[submodule "my_plugins/vim-closetag"]
+	path = my_plugins/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
+[submodule "my_plugins/vim-header"]
+	path = my_plugins/vim-header
+	url = https://github.com/alpertuna/vim-header
+[submodule "my_plugins/vim-indexed-search"]
+	path = my_plugins/vim-indexed-search
+	url = https://github.com/henrik/vim-indexed-search.git
+[submodule "my_plugins/vim-lsp"]
+	path = my_plugins/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp.git
+[submodule "my_plugins/vim-signify"]
+	path = my_plugins/vim-signify
+	url = https://github.com/mhinz/vim-signify.git
+[submodule "my_plugins/vim-template"]
+	path = my_plugins/vim-template
+	url = https://github.com/aperezdc/vim-template.git
+[submodule "my_plugins/vim-tmux-navigator"]
+	path = my_plugins/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
