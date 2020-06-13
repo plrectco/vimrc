@@ -3,10 +3,6 @@
 " Last Modified Date: 28.02.2020
 source /usr/share/vim/google/google.vim
 
-
-" Piper plugin mappings
-Glug piper plugin[mappings]
-
 " g4 plugin
 " :G4Edit :G4Revert :G4Add
 " :G4Pending
@@ -29,7 +25,9 @@ Glug relatedfiles plugin[mappings]=',2'
 " Codesearch 
 " <leader>cs code_search_query
 " <leader>cf open current file bn cs
-Glug corpweb plugin[mappings]
+" Glug corpweb plugin[mappings]
+
+
 
 
 " Kythe LSP
@@ -82,8 +80,6 @@ endfunction
 command Headerfix call HeaderFix()
 command Headerquery call HeaderQuery()
 
-
-let localleader=","
 nnoremap <localleader>hf :Headerfix<CR>
 nnoremap <localleader>hq :Headerquery<CR>
 
@@ -180,7 +176,7 @@ function ClassAccessOperatorToggle()
 endfunction 
 
 command ClassAccessOperatorToggle call ClassAccessOperatorToggle()
-nnoremap ,p :ClassAccessOperatorToggle<CR>
+nnoremap \<Space>p :ClassAccessOperatorToggle<CR>
 
 " Copy the buildable command of the current file to clipboard.
 " If the current file is a/b/c/d/k.h

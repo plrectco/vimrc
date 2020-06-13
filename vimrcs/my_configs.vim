@@ -1,10 +1,15 @@
+" File   : my_configs.vim
+" License: MIT
+" Author : Xinyue Ou <xinyue3ou@gmail.com>
+" Date   : 13.06.2020
 set nu
 set nocompatible
 " When esckeys are set, function keys are recognized in insert mode.
 " Unsetting it makes vim recognize Esc immediately in insert mode.
 " :help esckeys
 set noesckeys
-let mapleader = "\<Space>"
+" Map space to leader will be less annoying.
+nmap <Space> <Leader>
 set cmdheight=1
 set foldmethod=indent "set default foldmethod
 set cursorline
@@ -48,16 +53,16 @@ if &diff
     map <silent> <leader>1 :diffget 1<CR>:diffupdate<CR>
     map <silent> <leader>2 :diffget 2<CR>:diffupdate<CR>
     map <silent> <leader>3 :diffget 3<CR>:diffupdate<CR>
-else
-    map <silent><leader>1 1gt
-    map <silent><leader>2 2gt
-    map <silent><leader>3 3gt
-    map <silent><leader>4 4gt
-    map <silent><leader>5 5gt
-    map <silent><leader>6 6gt
-    map <silent><leader>7 7gt
-    map <silent><leader>8 8gt
-    map <silent><leader>9 9gt
+" else
+"     map <silent><leader>1 1gt
+"     map <silent><leader>2 2gt
+"     map <silent><leader>3 3gt
+"     map <silent><leader>4 4gt
+"     map <silent><leader>5 5gt
+"     map <silent><leader>6 6gt
+"     map <silent><leader>7 7gt
+"     map <silent><leader>8 8gt
+"     map <silent><leader>9 9gt
 endif
 
 set autochdir
